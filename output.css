@@ -673,16 +673,6 @@ video {
   height: 1000px;
 }
 
-@media (min-width: 1024px) {
-  .lg\:h-96 {
-    height: 24rem;
-  }
-
-  .lg\:w-96 {
-    width: 24rem;
-  }
-}
-
 @media (min-width: 1280px) {
   .xl\:h-screen {
     height: 100vh;
@@ -714,5 +704,9 @@ video {
 
   .xl\:pt-48 {
     padding-top: 12rem;
+  }
+
+  .xl\:tracking-widest {
+    letter-spacing: 0.1em;
   }
 }
